@@ -1,13 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World"
+  send_file File.expand_path('hello.txt', settings.public_folder)
 end
-
-get '/blah' do
-  "Hello World"
-end
-
-get '/sinatra' do 
-	"Hello Sinatra"
-end 
