@@ -1,1 +1,1 @@
-Hello, Avina. How is your day? 
+Hello, family. Welcome to my first website built using Ruby. 
