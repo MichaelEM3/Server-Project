@@ -1,13 +1,6 @@
 require 'sinatra'
 
-get '/' do
-  "Hello World"
+get '/public/hello.txt' do
+  
 end
 
-get '/blah' do
-  "Hello World"
-end
-
-get '/sinatra' do 
-	"Hello Sinatra"
-end 
